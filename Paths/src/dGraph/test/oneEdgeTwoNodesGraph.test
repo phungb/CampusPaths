@@ -1,0 +1,14 @@
+# Tests if an edge can be added to a graph with two nodes
+
+# Create a graph
+CreateGraph one_edge_graph
+
+# Add a pair of nodes
+AddNode one_edge_graph n1
+AddNode one_edge_graph n2
+
+# Add an edge
+AddEdge one_edge_graph n1 n2 e1
+
+# Print the nodes in the graph and the outgoing edges from n1
+ListChildren one_edge_graph n1

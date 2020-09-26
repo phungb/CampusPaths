@@ -1,0 +1,12 @@
+# Tests adding multiple nodes to Graph
+
+# Create a graph
+CreateGraph multiple_node_graph
+
+# Add three nodes
+AddNode multiple_node_graph n1
+AddNode multiple_node_graph n2
+AddNode multiple_node_graph n3
+
+# Print the nodes in the graph
+ListNodes multiple_node_graph

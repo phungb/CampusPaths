@@ -1,0 +1,12 @@
+# Tests adding multiple nodes to Graph
+
+# Create a graph
+created graph multiple_node_graph
+
+# Add three nodes
+added node n1 to multiple_node_graph
+added node n2 to multiple_node_graph
+added node n3 to multiple_node_graph
+
+# Print the nodes in the graph
+multiple_node_graph contains: n1 n2 n3

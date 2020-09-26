@@ -1,0 +1,26 @@
+# Tests a graph of multiple nodes and edges
+
+# Create a graph
+CreateGraph graph3
+
+# Add three nodes
+AddNode graph3 n1
+AddNode graph3 n2
+AddNode graph3 n3
+
+# Add edges to existing nodes
+AddEdge graph3 n1 n1 e11
+AddEdge graph3 n1 n2 e12
+AddEdge graph3 n1 n3 e13
+AddEdge graph3 n2 n1 e21
+AddEdge graph3 n2 n2 e22
+AddEdge graph3 n2 n3 e23
+AddEdge graph3 n3 n1 e31
+AddEdge graph3 n3 n2 e32
+AddEdge graph3 n3 n3 e33
+
+# Print the nodes in the graph
+ListNodes graph3
+ListChildren graph3 n1
+ListChildren graph3 n2
+ListChildren graph3 n3

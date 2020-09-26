@@ -1,0 +1,26 @@
+# Tests a graph of multiple nodes and edges
+
+# Create a graph
+created graph graph3
+
+# Add three nodes
+added node n1 to graph3
+added node n2 to graph3
+added node n3 to graph3
+
+# Add edges to existing nodes
+added edge e11 from n1 to n1 in graph3
+added edge e12 from n1 to n2 in graph3
+added edge e13 from n1 to n3 in graph3
+added edge e21 from n2 to n1 in graph3
+added edge e22 from n2 to n2 in graph3
+added edge e23 from n2 to n3 in graph3
+added edge e31 from n3 to n1 in graph3
+added edge e32 from n3 to n2 in graph3
+added edge e33 from n3 to n3 in graph3
+
+# Print the nodes in the graph 
+graph3 contains: n1 n2 n3
+the children of n1 in graph3 are: n1(e11) n2(e12) n3(e13)
+the children of n2 in graph3 are: n1(e21) n2(e22) n3(e23)
+the children of n3 in graph3 are: n1(e31) n2(e32) n3(e33)
